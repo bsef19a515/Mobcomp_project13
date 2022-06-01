@@ -29,7 +29,7 @@
         android:id="@+id/textView3"
         android:layout_width="86dp"
         android:layout_height="32dp"
-        android:text="@string/roll"
+        android:text="@string/auth"
         app:layout_constraintBottom_toBottomOf="@+id/list"
         app:layout_constraintEnd_toEndOf="@+id/list"
         app:layout_constraintStart_toEndOf="@+id/imageView4"
