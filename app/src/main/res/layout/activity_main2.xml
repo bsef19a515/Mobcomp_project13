@@ -6,37 +6,48 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity2">
 
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="84dp"
+
+        android:textColor="#274EB0"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/imageView4"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="32dp"
+
+        android:textColor="#D10606"
+        android:textSize="18sp"
+        app:layout_constraintStart_toEndOf="@+id/imageView4"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
     <ImageView
         android:id="@+id/imageView4"
-        android:layout_width="189dp"
-        android:layout_height="135dp"
-        app:layout_constraintBottom_toBottomOf="@+id/list"
-        app:layout_constraintStart_toStartOf="@+id/list"
-        app:layout_constraintTop_toTopOf="@+id/list"
+        android:layout_width="165dp"
+        android:layout_height="200dp"
+        android:layout_marginStart="29dp"
+        android:layout_marginTop="61dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
         tools:srcCompat="@tools:sample/avatars" />
 
     <ListView
         android:id="@+id/list"
-        android:layout_width="306dp"
-        android:layout_height="222dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.349"
+        android:layout_width="399dp"
+        android:layout_height="450dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="16dp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.128">
-
-        <TextView
-            android:id="@+id/textView2"
-            android:layout_width="96dp"
-            android:layout_height="29dp"
-            android:hint="@string/name" />
-
-        <TextView
-            android:id="@+id/textView3"
-            android:layout_width="86dp"
-            android:layout_height="32dp"
-            android:hint="@string/auth" />
-    </ListView>
+        app:layout_constraintTop_toTopOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

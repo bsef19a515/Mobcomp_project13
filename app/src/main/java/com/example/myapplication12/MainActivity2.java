@@ -15,8 +15,8 @@ public class MainActivity2 extends AppCompatActivity {
         setContentView(R.layout.activity_main2);
 
         ArrayList<Book> bookArrayList = new ArrayList<>();
-        bookArrayList.add(new Book("Reclaim your heart", "Alpha", R.drawable.a1));
-        bookArrayList.add(new Book("This is why we pray", "Beta",  R.drawable.a2));
+        bookArrayList.add(new Book("Reclaim ", "Alpha", R.drawable.a1));
+        bookArrayList.add(new Book("We pray", "Beta",  R.drawable.a2));
         bookArrayList.add(new Book("Prayers pious", "Alpha",  R.drawable.a3));
         bookArrayList.add(new Book("The Right Duties", "Beta", R.drawable.a4));
         MyViewAdapter adapter = new MyViewAdapter(this, bookArrayList);
